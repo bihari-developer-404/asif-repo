@@ -1,261 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Razorpay-Best Payment Solutions</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <header>
-        <div class="banner">
-            <img src="d2c-banner-logo.avif" alt="">
-            <h2>Light up your festive strategy</h2>
-            <button class="register-btn">Register Now</button>
-        </div>
-        <nav>
-            <div class="navbar">
-                <img src="111.png" alt="">
-                <a href="" class="first-two-links" id="payment">Payments</a>
-                <a href="" class="first-two-links">Banking+</a>
-                <a href="">Line of Credit</a>
-                <a href="">Payroll</a>
-                <a href="" class="first-two-links">Resources</a>
-                <a href="" class="first-two-links">Support</a>
-                <a href="">Pricing</a>
-                <div class="country">
-                    <img src="indian-flag.a7d181aa.svg" alt="" style="width: 28px; margin-right:5px;">
-                    <i class="fa-solid fa-chevron-down" style="color: #adadae; font-size: 9px; "></i>
+    <div class="main">
+        <div class="card">
+            <h2>Weather App</h2>
+            <input type="text" placeholder="Enter City">
+            <input type="submit" value="Get Weather">
+            <div id="weather-data">
+                <div class="icon">
+                    <img src="./red dot.svg" alt="weather-icon">
+                    <div class="temp">22&degC</div>
                 </div>
-                <a href="" id="login-btn">Log In</a>
-                <a href="" id="signup">Sign Up &nbsp<i class="fa-solid fa-arrow-right"
-                        style="color: #0b72e7; font-size: 10px;"></i></a>
-            </div>
-        </nav>
-    </header>
-    <!--hero section-->
-    <div class="hero">
-        <div class="content">
-            <h1>Power your finance, grow your business</h1>
-            <p>Accept payments from customers. Automate payouts to vendors & employees. Never run out of working
-                capital.
-            </p>
-            <a href="">Sign Up Now&nbsp;<i class="fa-solid fa-arrow-right" style="color: white;"></i>
-            </a>
-        </div>
-        <img src="home-desktop.4a9233fc.jpg" alt="">
-    </div>
-    <img src="jugad.png" alt="" width="100.1%">
-    <div class="second-section">
-        <img src="leftdost.png" alt="" style="position:absolute ;top:850px; left: 105px;">
-        <h2 style="text-align: center;">Accept Payments with Razorpay Payment Suite</h2>
-        <img src="dots-with-cut.bde9e78f.png" alt="" style="position:absolute; right: 25px;">
-        <div class="payment-gateway">
-            <div class="content-2">
-                <div class="heading">
-                    <h2>Supercharge your business with the all-powerful <h2 style="color: #0b72e7;">Payment Gateway</h2>
-                    </h2>
-                </div>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp; 100+ Payment Methods</li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp; Industry Leading Success Rate</li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp; Superior Checkout Experience</li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp; Easy to Integrate</li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp; Instant Settlements from day 1</li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp; In-depth Reporting and Insights</li>
-                <a href="">Sign Up Now&nbsp;<i class="fa-solid fa-arrow-right" style="color: white;"></i>
-                </a>
-                <a href="" id="knowmore">Know More <i class="fa-solid fa-chevron-right"
-                        style="font-size: 10px;"></i></a>
-            </div>
-            <img src="payment-suite.c8ef898b.png" alt="">
-        </div>
-    </div>
-    <div class="third-section">
-        <div class="box">
-            <h2>Payment Link</h2>
-            <p>Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class="box">
-            <h2>Payment Pages</h2>
-            <p>Take your store online instantly with zero coding. Accept international & domestic payments</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class="box">
-            <h2>Payment Buttons</h2>
-            <p>Create, Copy & Collect With Payment Button. Collect one time or subscription payments & more</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class="box">
-            <h2>Subscriptions</h2>
-            <p>Subscription plans with automated recurring transactions on various payment modes.</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class="box">
-            <h2>Route</h2>
-            <p>Split incoming payments automatically to vendor’s accounts, manage marketplace money flow...</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class="box">
-            <h2>Smart Collect</h2>
-            <p>Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using Customer Identifiers & UPI-IDs</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-    </div>
-    <div class="product-finder">
-        <h3>Not sure which product to choose? &nbsp;</h3>
-        Answer a few questions and we'll help you out
-        <a href="">Find me a product <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-    </div>
-    <div class="fourth-section">
-        <h2>Explore RazorpayX powered Business Banking</h2>
-        <img src="x-flame-1.56d9277e.png" alt="" id="flame1">
-        <img src="x-flame-2.bb3b0a86.png" alt="" id="flame2">
-        <div class="razorpayX">
-            <div class="content-3">
-                <h1>Manage your company's finances and supercharge your business banking with <img
-                        src="razorpay-x-logo.5cf8015e.svg" alt=""></h1>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp;Open a fully digital current account
-                </li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp;Automate payables & compliment
-                    payments </li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp;Simplify and track spends with
-                    Corporate cards </li>
-                <li><i class="fa-solid fa-check" style="color: #27f588;"></i>&nbsp;View financial insights at a glance
-                </li>
-                <div class="signbtn">
-                    <a href="" class="signup">Sign Up&nbsp;<i class="fa-solid fa-arrow-right" style="color: white;"></i>
-                    </a>
-                    <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right"
-                            style="font-size: 10px;"></i></a>
+                <div class="description">Sunny</div>
+                <div class="details">
+                    <div>Feels like: <br>23&degC</div>
+                    <div>Humidity: <br>40%</div>
+                    <div>Wind Speed:<br>5m/s</div>
                 </div>
             </div>
-            <img src="x-graphic.b40f463e.png" alt="">
-
-        </div>
-        <div class="razorpayX-area">
-            <div class="razorpayX-box">
-                <h1>Current Account</h1>
-                <p>Current accounts for fast-growing business, supported by the best-in-class technology</p>
-                <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right"
-                        style="font-size: 10px;"></i></a>
-            </div>
-            <div class="razorpayX-box">
-                <h1>Current Account</h1>
-                <p>Current accounts for fast-growing business, supported by the best-in-class technology</p>
-                <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right"
-                        style="font-size: 10px;"></i></a>
-            </div>
-            <div class="razorpayX-box">
-                <h1>Current Account</h1>
-                <p>Current accounts for fast-growing business, supported by the best-in-class technology</p>
-                <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right"
-                        style="font-size: 10px;"></i></a>
-            </div>
-        </div>
-        <div class="demo-banner">
-            Check out the live demo to learn how RazorpayX works. &nbsp;<h1>No sign-up required!</h1>
-            <a href="" class="demo">Check out the demo <i class="fa-solid fa-arrow-right" style="color: white;"></i></a>
         </div>
     </div>
-    <!--fifth section starts here-------------------------------------------------------------->
-    <img src="dots-with-cut.bde9e78f (1).png" alt="" style="position: relative; left:400px; top: 70px;">
-    <img src="dots-with-cut.bde9e78f (1).png" alt="" style="position: relative; left:850px; top: 70px;">
-    <div class="fifth-section">
-        <div class="product-suite">
-            <h1>New in the </h1>
-            <h1 style="color: #0b72e7;">Razorpay</h1>
-            <h1>Product Suite</h1>
-        </div>
-        <div class="instant-settlements product-box">
-            <img src="instant-settlements.b6b6e467.svg" alt="" class="logo">
-            <h1>Instant Settlements</h1>
-            <p>Settle your customer payments within 10 seconds as soon your account is activated, even during holidays.
-            </p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class=" UPI-AutoPay product-box">
-            <img src="upi-autopay.df1cd0fd.svg" alt="" class="logo">
-            <h1> UPI AutoPay</h1>
-            <p>Allow customers to set up recurring payments using UPI Apps.</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class=" Paymentbtn product-box">
-            <img src="payment-buttons.74fc1e0f.svg" alt="" class="logo">
-            <h1> Payment Button</h1>
-            <p>Accept payments on your website, in less than 5 minutes. No developer needed.</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class=" qrcode product-box">
-            <img src="qr-code.90a31467.svg" alt="" class="logo">
-            <h1>QR Codes</h1>
-            <p>Create unlimited QR codes with business branding and start accepting payments for free*.</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-        <div class="magicbox product-box">
-            <img src="magic-checkout.b04446d0.svg" alt="" class="logo">
-            <h1>Magic Checkout</h1>
-            <p>Improve your order conversion rates & reduce return-to-origins. Boost your business by 20%!</p>
-            <a href="" class="knowmore">Know More <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i></a>
-        </div>
-    </div>
-
-    <div class="features-section">
-        <div class="heading">
-            <h1>Featues</h1>
-            <p>Empower your business with all the right tools to accept online payments and provide the best customer
-                experience</p>
-        </div>
-        <div class="featurebox">
-            <div class="fbox">
-                <img src="instant-activation.6f975aa6.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">Instant Activation</h2>
-                <p style="text-align: left; line-height: 24px;">Get activated and transact within 2 minutes. Completely
-                    online onboarding with minimum documentation.</p>
-            </div>
-            <div class="fbox">
-                <img src="easy-integration.18651e2f.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">Easy Integration</h2>
-                <p style="text-align: left; line-height: 24px;">With plugins for all major platforms and languages,
-                    integrate and go live with Razorpay in less than an hour.</p>
-            </div>
-            <div class="fbox">
-                <img src="api-driven.207572da.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">API Driven</h2>
-                <p style="text-align: left; line-height: 24px;">Build your business for scale with our complete API-driven automation that requires zero manual intervention.</p>
-            </div>
-            <div class="fbox">
-                <img src="payment-modes.da25e039.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">100+ payments modes</h2>
-                <p style="text-align: left; line-height: 24px; ">Offer your customers the luxury of all payment modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.</p>
-            </div>
-            <div class="fbox">
-                <img src="simple-pricing.dc58cdbb.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">Simple Pricing</h2>
-                <p style="text-align: left; line-height: 24px;">Our innovative payment solutions with competitive pricing make payments simpler.</p>
-            </div>
-            <div class="fbox">
-                <img src="support.714ccbce.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">Best in Industry Support</h2>
-                <p style="text-align: left; line-height: 24px;">Always available email, phone and chat based support to help you in your every step.</p>
-            </div>
-            <div class="fbox">
-                <img src="dashboard-reporting.15590378.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">Dashboard Reporting</h2>
-                <p style="text-align: left; line-height: 24px;">Real-time data and insights on your Razorpay Dashboard to make informed business decisions.</p>
-            </div>
-            <div class="fbox">
-                <img src="secure.742a33ac.svg" alt="" style="margin-bottom: 16px;">
-                <h2 style="color: #fff; margin-bottom: 16px;">Secure</h2>
-                <p style="text-align: left; line-height: 24px;">PCI DSS Level 1 compliant solution which removes your burden of regulatory compliance.</p>
-            </div>
-        </div>
-    </div>
+    <script src="./script.js"></script>
 </body>
-
 </html>
